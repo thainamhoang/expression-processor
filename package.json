@@ -1,0 +1,15 @@
+{
+  "name": "expression-processor",
+  "version": "1.0.0",
+  "description": "EP will convert string of condition to boolean value",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "namhoangthai2607 <39653408+namhoangthai2607@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
