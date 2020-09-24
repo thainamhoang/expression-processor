@@ -6,24 +6,24 @@ Expression Processor - like its name - is an evaluator (or filter) for an input 
 
 ## Supported operators/filters
 
-|  Operator/Filter   |       Description        |
+| Operator/Filter    | Description              |
 | :----------------: | :----------------------: |
-|         `          |                          | ` | OR |
-|        `&&`        |           AND            |
-|        `!`         |           NOT            |
-|        `()`        |       Parentheses        |
-|        `==`        |         EQUAL_TO         |
-|        `!=`        |       NOT_EQUAL_TO       |
-|        `<`         |        LESS_THAN         |
-|        `<=`        |  LESS_THAN_OR_EQUAL_TO   |
-|        `>`         |       GREATER_THAN       |
-|        `>=`        | GREATER_THAN_OR_EQUAL_TO |
-|    `<contains>`    |        CONTAINS:         |
-| `<array-contains>` |      ARRAY_CONTAINS      |
-|       `<in>`       |            IN            |
-|  `<begins-with>`   |       BEGINS_WITH        |
-|   `<ends-with>`    |        ENDS_WITH         |
-| `<matches-regex>`  |      MATCHES_REGEX       |
+| `||`               | OR                       |
+| `&&`               | AND                      |
+| `!`                | NOT                      |
+| `()`               | Parentheses              |
+| `==`               | EQUAL_TO                 |
+| `!=`               | NOT_EQUAL_TO             |
+| `<`                | LESS_THAN                |
+| `<=`               | LESS_THAN_OR_EQUAL_TO    |
+| `>`                | GREATER_THAN             |
+| `>=`               | GREATER_THAN_OR_EQUAL_TO |
+| `<contains>`       | CONTAINS:                |
+| `<array-contains>` | ARRAY_CONTAINS           |
+| `<in>`             | IN                       |
+| `<begins-with>`    | BEGINS_WITH              |
+| `<ends-with>`      | ENDS_WITH                |
+| `<matches-regex>`  | MATCHES_REGEX            |
 
 ## Usage
 
