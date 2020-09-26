@@ -1,6 +1,6 @@
 {
   "name": "expression-processor",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "EP will convert string of condition to boolean value",
   "main": "index.js",
   "repository": {
@@ -24,5 +24,10 @@
     "@babel/core": "^7.8.3",
     "@babel/runtime": "^7.8.3",
     "babel-jest": "^24.9.0"
-  }
+  },
+  "keywords": [
+    "expression",
+    "boolean",
+    "condition"
+  ]
 }
