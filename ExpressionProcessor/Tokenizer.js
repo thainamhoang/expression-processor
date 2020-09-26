@@ -29,7 +29,7 @@ const Tokenizer = (str) => {
         i += 1;
         break;
       case "!":
-        if (str[i + 1] != "=") {
+        if (str[i + 1] !== "=") {
           token.push({ type: "NOT", value: "!" });
         } else {
           exp += str[i];

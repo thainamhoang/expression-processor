@@ -6,11 +6,11 @@ Expression Processor - like its name - is an evaluator (or filter) for an input 
 
 ## Installation
 
-`npm -i expression-processor` or `yarn add expression-processor`
+`npm i expression-processor` or `yarn add expression-processor`
 
 ## Testing
 
-EP provides some sample cases to be run with `jest`. For testing, please install `jest` by `npm -i jest --save-dev` or `yarn add jest --dev` and then `npm test` or `yarn test`.
+EP provides some sample cases to be run with `jest`. For testing, please install `jest` by `npm i jest --save-dev` or `yarn add jest --dev` and then `npm test` or `yarn test`.
 
 ## Usage
 

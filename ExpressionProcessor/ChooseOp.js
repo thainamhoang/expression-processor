@@ -29,12 +29,10 @@ const ChooseOp = (data, field, operator, value) => {
       result = String(dataField.includes(value));
       break;
     case "<in>":
-      let temp = value.split(",");
-      result = String(temp.includes(dataField));
+      result = String(value.split(",").includes(dataField));
       break;
     case "<array-contains>":
-      let holder = String(data[field]).split(",");
-      result = String(holder.includes(removal(value)));
+      result = String(String(data[field]).split(",").includes(removal(value)));
       break;
     case "<begins-with>":
       result = String(dataField.startsWith(value));
@@ -43,13 +41,11 @@ const ChooseOp = (data, field, operator, value) => {
       result = String(dataField.endsWith(value));
       break;
     case "<matches-regex>":
-      const regex = new RegExp(value);
-      result = String(regex.test(dataField));
+      result = String(new RegExp(value).test(dataField));
       break;
     default:
-      throw "Error code: ChooseOpNotFound. '\n' Please recheck this case again! No operators can be found!";
-
       result = "false";
+      throw "Error code: ChooseOpNotFound. '\n' Please recheck this case again! No operators can be found!";
   }
   return result;
 };
